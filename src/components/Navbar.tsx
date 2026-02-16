@@ -8,13 +8,13 @@ const Navbar = () => {
     <nav className="sticky top-0 z-50 border-b border-section-border bg-background/95 backdrop-blur-sm">
       <div className="section-container flex h-16 items-center justify-between">
         {/* Logo */}
-        <div className="flex items-center gap-2">
-          <div className="flex h-8 w-8 items-center justify-center rounded-md bg-primary">
-            <span className="text-sm font-bold text-primary-foreground">V</span>
-          </div>
-          <span className="text-lg font-semibold text-foreground">Vantage</span>
-          <span className="text-xs text-subtle font-body">by Profile</span>
-        </div>
+        <a href="#top" className="flex items-center" aria-label="Vantage home">
+          <img
+            src="/images/Vantage-logo-dark.svg"
+            alt="Vantage"
+            className="h-7 w-auto"
+          />
+        </a>
 
         {/* Desktop links */}
         <div className="hidden md:flex items-center gap-8">
