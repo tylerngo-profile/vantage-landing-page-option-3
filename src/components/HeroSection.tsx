@@ -10,7 +10,7 @@ const HeroSection = () => {
             <p className="text-xs font-semibold uppercase tracking-widest text-accent-foreground mb-4">
               Insight-led platform for in-house experts
             </p>
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground leading-[1.1] mb-6">
+            <h1 className="text-4xl md:text-5xl font-semibold tracking-normal text-foreground leading-[1.2] mb-6">
               The insight hub for your{" "}
               <span className="text-primary">in-house experts.</span>
             </h1>
