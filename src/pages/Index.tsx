@@ -9,21 +9,25 @@ import CredibilitySection from "@/components/CredibilitySection";
 import TimelineSection from "@/components/TimelineSection";
 import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
+import ComparisonBlock from "@/components/ComparisonBlock";
+import StickyCTA from "@/components/StickyCTA";
 
 const Index = () => {
   return (
-    <div id="top" className="min-h-screen bg-background">
+    <div id="top" className="min-h-screen bg-background pb-24 xl:pb-0">
       <Navbar />
       <HeroSection />
       <LogoStrip />
       <FeaturesGrid />
       <ProcessSection />
+      <ComparisonBlock />
       <ContentFormats />
       <DesignPhilosophy />
       <CredibilitySection />
       <TimelineSection />
       <FinalCTA />
       <Footer />
+      <StickyCTA />
     </div>
   );
 };
